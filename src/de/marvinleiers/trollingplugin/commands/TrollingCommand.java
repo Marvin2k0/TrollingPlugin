@@ -13,7 +13,7 @@ public class TrollingCommand implements CommandExecutor
     {
         if (!(commandSender instanceof Player))
         {
-            commandSender.sendMessage(TrollingPlugin.getInstance().getPrefix() + " §cNur fuer Spieler!");
+            commandSender.sendMessage(TrollingPlugin.getInstance().gePrefix() + " §cNur fuer Spieler!");
 
             return true;
         }
